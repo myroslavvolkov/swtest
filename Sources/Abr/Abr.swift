@@ -1,7 +1,10 @@
 import Foundation
 
 public struct AbrStruct {
-    func doIT() -> Bool {
+    public init() {
+    }
+    
+    public func doIT() -> Bool {
         print("do it!")
         
         return true
